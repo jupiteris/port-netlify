@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
-import { FiAlignRight } from "react-icons/fi";
-import { NavContainer, Header, Div, NavHeader } from "./Navbar.style";
-import { me } from "../../config";
+import React, { useState } from 'react';
+import { FiAlignRight } from 'react-icons/fi';
+import { NavContainer, Header, Div, NavHeader } from './Navbar.style';
+import { me } from '../../config';
 
 const NavbarHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,18 +17,12 @@ const NavbarHeader = () => {
         <NavContainer>
           <Div>
             <NavHeader>
-              <a href="#home">
-                {logo ? (
-                  <img src={logo} alt="jupiter" />
-                ) : (
-                  <h1>{"</>" ?? "Jupiter"}</h1>
-                )}
-              </a>
+              <a href="#home">{logo ? <img src={logo} alt="jupiter" /> : <h1>{'</>' ?? 'Jupiter'}</h1>}</a>
               <button type="button" className="nav-btn" onClick={handleToggle}>
                 <FiAlignRight className="nav-icon" />
               </button>
             </NavHeader>
-            <ul className={isOpen ? "show-nav nav-links" : "nav-links"}>
+            <ul className={isOpen ? 'show-nav nav-links' : 'nav-links'}>
               <li>
                 <a href="#about">About</a>
               </li>
@@ -43,17 +37,12 @@ const NavbarHeader = () => {
               <li>
                 <a href="#work">Work</a>
               </li>
-              {/* <li>
+              <li>
                 <a href="#contact">Contact</a>
-              </li> */}
+              </li>
               {resume && (
                 <li>
-                  <a
-                    href={resume}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="resume"
-                  >
+                  <a href={resume} rel="noopener noreferrer" target="_blank" className="resume">
                     Resume
                   </a>
                 </li>

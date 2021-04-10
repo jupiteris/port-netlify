@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 bfe4fc7459625d268feb58fc29c2a3823d5e7bc9 Jupiter <jupiter.programmer@gmail.com> 1610204428 +0400	clone: from https://github.com/jupiteris/my-portfolio.git
+bfe4fc7459625d268feb58fc29c2a3823d5e7bc9 09d8cd08fb42dca66232bff4d80fb7123a81c90c Jupiter <jupiter.programmer@gmail.com> 1610204531 +0400	commit: draft finished
+09d8cd08fb42dca66232bff4d80fb7123a81c90c 903d961c97c3c9fc52fa68b046c8cb69f0d0b1d2 Jupiter <jupiter.programmer@gmail.com> 1610221485 +0400	commit: added job history
+903d961c97c3c9fc52fa68b046c8cb69f0d0b1d2 72a4b9b5fefc4a428671725cb8ac7a1275d3c908 Jupiter <jupiter.programmer@gmail.com> 1610221686 +0400	pull: Merge made by the 'recursive' strategy.
+72a4b9b5fefc4a428671725cb8ac7a1275d3c908 e3fde05786cec1b3fdbf33d3fa86c5e1a7427f82 Jupiter <jupiter.programmer@gmail.com> 1610235198 +0400	commit: fix layout
+e3fde05786cec1b3fdbf33d3fa86c5e1a7427f82 d5b6b82b4ef46498b5d33168ce0117871e0902dd Jupiter <jupiter.programmer@gmail.com> 1610235831 +0400	commit: fix something
+d5b6b82b4ef46498b5d33168ce0117871e0902dd fae0c8f57d3fe2afb6515562ac98086de06fd349 Jupiter <jupiter.programmer@gmail.com> 1610239384 +0400	commit: added works
+fae0c8f57d3fe2afb6515562ac98086de06fd349 4df10ad91a295d56440bcc9c32da9513f82cd930 Jupiter <jupiter.programmer@gmail.com> 1610239535 +0400	commit: changed works
+4df10ad91a295d56440bcc9c32da9513f82cd930 936e2e62af396d2a5916243fa685eec5743a6446 Jupiter <jupiter.programmer@gmail.com> 1610239949 +0400	commit: added the git links
+936e2e62af396d2a5916243fa685eec5743a6446 92f5b45e642f428045f77bf1747fdd73246bd4d8 Jupiter <jupiter.programmer@gmail.com> 1610297103 +0400	commit: changed social links
+92f5b45e642f428045f77bf1747fdd73246bd4d8 baa32b8324d157dd152268d3782c41e51d6715a6 Jupiter <jupiter.programmer@gmail.com> 1611016679 +0400	commit: commented the contact section
+baa32b8324d157dd152268d3782c41e51d6715a6 7d8cb79badc53f38bbe4e4ad5a7be43153de33f5 Jupiter <jupiter.programmer@gmail.com> 1611016918 +0400	commit: removed contact section
+7d8cb79badc53f38bbe4e4ad5a7be43153de33f5 afc92ad2919654a97250595856f94c00751cb597 Jupiter <jupiter.programmer@gmail.com> 1611017093 +0400	commit: style changed
+afc92ad2919654a97250595856f94c00751cb597 3e34c76349465f8c57786754207e04b2583636a6 Jupiter <jupiter.programmer@gmail.com> 1611024318 +0400	commit: added slider animation
+3e34c76349465f8c57786754207e04b2583636a6 f23bc592e34deabe60bbf14c2fd2001a261fb103 Jupiter <jupiter.programmer@gmail.com> 1611025573 +0400	commit: animation change
+f23bc592e34deabe60bbf14c2fd2001a261fb103 bdf87237785263180c71e69666b8647bdbb0f1a2 Jupiter <jupiter.programmer@gmail.com> 1611025935 +0400	commit: style changed in nav
+bdf87237785263180c71e69666b8647bdbb0f1a2 5509c8825458a07ef91cb3ea33c8154b03421cd5 Jupiter <jupiter.programmer@gmail.com> 1611025972 +0400	commit: removed animation.js from index.js
+5509c8825458a07ef91cb3ea33c8154b03421cd5 cf6e09d87729cb02b58cb171d7a57934425b1d22 Jupiter <jupiter.programmer@gmail.com> 1611055433 +0400	commit: changed style & logo
+cf6e09d87729cb02b58cb171d7a57934425b1d22 fa8fbf08f682f5541e467972ebb1bcbd1ae97ebf Jupiter <jupiter.programmer@gmail.com> 1611060613 +0400	commit: header animation
+fa8fbf08f682f5541e467972ebb1bcbd1ae97ebf 41c81b4f219ae76888a0d6bd82f4aa07d1ecb004 Jupiter <jupiter.programmer@gmail.com> 1611226722 +0400	commit: animation snake border
+41c81b4f219ae76888a0d6bd82f4aa07d1ecb004 e308f4e09a6238ca3071c15324a27ae952907afb Jupiter <jupiter.programmer@gmail.com> 1611886179 +0400	commit: hover effect

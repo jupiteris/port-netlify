@@ -5,9 +5,9 @@ const MailTo = ({ email, subject = '', body = '', children }) => {
   if (subject) params += `subject=${encodeURIComponent(subject)}`;
   if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
   return (
-    <>
-      <a href={`mailto:${email}${params}`}>{children}</a>
-    </>
+    <a href={`mailto:${email}`} target="_top">
+      {children}
+    </a>
   );
 };
 
