@@ -57,6 +57,7 @@ export const AboutMe = styled.div`
     width: 360px;
     height: 360px;
     margin: 6px;
+    object-fit: cover;
   }
   .snake img:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);

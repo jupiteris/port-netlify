@@ -11,33 +11,33 @@ import Footer from '../../components/Footer/Footer';
 import { me, contact } from '../../config';
 
 const Home = () => {
-  const { firstName, lastName, nickName, city, country, email } = me;
-  const { subject, body } = contact;
-  return (
-    <>
-      <Main>
-        <Section id="home">
-          <Container className="welcome">
-            <h1>Hey, I'm</h1>
-            <h2>{firstName + ' ' + lastName ?? nickName}.</h2>
-            <h3>I build things for the web.</h3>
-            <p>
-              I'm a web developer ✨ based in {city + ', ' + country} versed in building applications and using
-              technologies making websites accessible for all.
-            </p>
-            <MailTo email={email} subject={subject} body={body}>
-              Get in Touch
-            </MailTo>
-          </Container>
-        </Section>
-        <About />
-        <History />
-        <Work />
-        <Contact />
-        <Footer />
-      </Main>
-    </>
-  );
+    const { firstName, lastName, nickName, city, country, email, title } = me;
+    const { subject, body } = contact;
+    return (
+        <>
+            <Main>
+                <Section id="home">
+                    <Container className="welcome">
+                        <h1>Hey, I'm</h1>
+                        <h2>{firstName + ' ' + lastName ?? nickName}</h2>
+                        <h3>{title}</h3>
+                        <p>
+                            I'm a web & mobile developer ✨ versed in building applications and using
+                            technologies making websites accessible for all.
+                        </p>
+                        <MailTo email={email} subject={subject} body={body}>
+                            Get in Touch
+                        </MailTo>
+                    </Container>
+                </Section>
+                <About />
+                <History />
+                <Work />
+                <Contact />
+                <Footer />
+            </Main>
+        </>
+    );
 };
 
 export default Home;

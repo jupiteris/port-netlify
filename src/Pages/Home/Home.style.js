@@ -26,7 +26,7 @@ export const Section = styled.section`
     margin-bottom: 0.35em;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #cebbc9;
     margin-bottom: 0.5em;
   }
@@ -53,7 +53,7 @@ export const Section = styled.section`
       font-size: 4.5rem;
     }
     h3 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     p {
       font-size: 1.5rem;
